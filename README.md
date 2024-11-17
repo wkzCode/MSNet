@@ -12,7 +12,7 @@ torch 1.11.0+cu111
 ## Pretraining Parameter
 * Swin Transformer Parameter ([Swin Transformer](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window12_384_22k.pth))
 * Our RGB-D SOD Parameter:  
-  Google: <>
+  Google: <https://drive.google.com/file/d/1j0KZXCvjCJYJrLrxDiHsBpD_RBlF-Qxm/view?usp=drive_link>
 
 ## Training
 Please run  
@@ -22,14 +22,14 @@ python MSNet_train.py
 
 ## Testing
 * Download the pre-trained models above and put them in ./pre.
-* Modify pathes of pre-trained models and datasets.
+* Modify paths of pre-trained models and datasets.
 * Run  
 ```
 python MSNet_test.py
 ```
 
 ## RGB-D Saliency Maps
-Google: <>
+Google: <https://drive.google.com/file/d/13EHOrvpB_qGWqePpJySEpngOtLhyb3lX/view?usp=drive_link>
 
 ## Evaluation Code
 Download the evaluation code from [Evaluation-SOD](https://github.com/Hanqer/Evaluate-SOD)
