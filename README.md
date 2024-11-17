@@ -1,27 +1,37 @@
-我自己的代码是MSNET
-具体的运行路径需要再修改options
-消融实验
-去掉通道和空间是MSNET1
-去掉位置是
-MSNET2
-都去掉是cat
-我自己的训练代码是MSNet_train_me.py
-原先的是MSNet_train.py
-conda activate dformer
-python MSNet_train_me.py
+# MSNet: An RGB-D Salient Object Detection Method Based on Feature Enhancement and Feature Fusion
 
-00没有PA
-11是全有
-111（NJU2K）
-2没有HF
-3没有DFEM和RFEM
-4没有afem
-5修改CCD（TPAMI）
-55(NJU2K)
-555(单个TPAMI解码器)
-6(改为SwinNet的解码器)
-7(6的基础上去掉afem)
-77(NJU2K+论文损失函数)
-8(损失函数由BCE改为论文提出)
-888(8的基础上NJU2K)
-9（888的基础上改为SwinNet解码器）
+![./figs](Overview.png)
+## Requirements
+python 3.10.14  
+torch 1.11.0+cu111
+
+## Training Set
+
+## Testing Set
+
+## Pretraining Parameter
+* Swin Transformer Parameter ([Swin Transformer](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window12_384_22k.pth))
+* Our RGB-D SOD Parameter:  
+  Google: <>
+
+## Training
+Please run  
+```python MSNet_train.py```
+
+## Testing
+* Download the pre-trained models above and put them in ./pre.
+* Modify pathes of pre-trained models and datasets.
+* Run  
+```python MSNet_test.py```
+
+## RGB-D Saliency Maps
+Google: <>
+
+## Evaluation Code
+Download the evaluation code from [Evaluation-SOD](https://github.com/Hanqer/Evaluate-SOD)
+
+## Citation
+If you find the information useful, please consider citing:
+```
+
+```
