@@ -5,9 +5,8 @@
 python 3.10.14  
 torch 1.11.0+cu111
 
-## Training Set
-
-## Testing Set
+## Download Training and Testing Set
+You can download the training and testing set from [CATNet](https://github.com/ROC-Star/CATNet)
 
 ## Pretraining Parameter
 * Swin Transformer Parameter ([Swin Transformer](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window12_384_22k.pth))
