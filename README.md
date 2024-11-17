@@ -16,13 +16,17 @@ torch 1.11.0+cu111
 
 ## Training
 Please run  
-```python MSNet_train.py```
+```
+python MSNet_train.py
+```
 
 ## Testing
 * Download the pre-trained models above and put them in ./pre.
 * Modify pathes of pre-trained models and datasets.
 * Run  
-```python MSNet_test.py```
+```
+python MSNet_test.py
+```
 
 ## RGB-D Saliency Maps
 Google: <>
