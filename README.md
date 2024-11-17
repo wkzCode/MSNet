@@ -1,6 +1,6 @@
 # MSNet: An RGB-D Salient Object Detection Method Based on Feature Enhancement and Feature Fusion
 
-![./figs](Overview.png)
+![Main](figs/Overview.png)
 ## Requirements
 python 3.10.14  
 torch 1.11.0+cu111
